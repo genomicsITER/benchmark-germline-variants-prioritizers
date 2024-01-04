@@ -126,17 +126,17 @@ Table: Counts and relative frequencies of correctly prioritized causal variants 
 <details>
 <summary>List of bioinformatic tools assessed (click to display; details are provided below):</summary>
 <ul>
-  <li><a href="https://amelie.stanford.edu/">/a>AMELIE v.2.0.6</li>
-  <li><a href="https://www.sanger.ac.uk/tool/exomiser/">/a>Exomiser v.12.1.0</li>
-  <li><a href="https://lirical.readthedocs.io/en/latest/index.html">/a>LIRICAL v.1.3.4</li>
-  <li><a href="https://github.com/pkuerten/phen-gen">/a>Phen-Gen v.1.0</li>
-  <li><a href="https://github.com/exomiser/Exomiser">/a>PhenIX v.12.1.0 (integrated into Exomiser)</li>
-  <li><a href="https://github.com/a-xavier/tapes">/a>TAPES v.0.1.1</li>
-  <li><a href="http://www.mulinlab.org/varnote/application.html#PAT">/a>VarNote-PAT v.2020</li>
-  <li><a href="https://web.stanford.edu/group/wonglab/Xrare/xrare-pub.2021.html">/a>Xrare v.2021</li>
-  <li><a href="">/a></li>
-  <li><a href="">/a></li>
-  <li><a href="">/a></li>
+  <li><a href="https://amelie.stanford.edu/">AMELIE v.2.0.6</a></li>
+  <li><a href="https://www.sanger.ac.uk/tool/exomiser/">Exomiser v.12.1.0</a></li>
+  <li><a href="https://lirical.readthedocs.io/en/latest/index.html">LIRICAL v.1.3.4</a></li>
+  <li><a href="https://github.com/pkuerten/phen-gen">Phen-Gen v.1.0</a></li>
+  <li><a href="https://github.com/exomiser/Exomiser">PhenIX v.12.1.0 (integrated into Exomiser)</a></li>
+  <li><a href="https://github.com/a-xavier/tapes">TAPES v.0.1.1</a></li>
+  <li><a href="http://www.mulinlab.org/varnote/application.html#PAT">VarNote-PAT v.2020</a></li>
+  <li><a href="https://web.stanford.edu/group/wonglab/Xrare/xrare-pub.2021.html">Xrare v.2021</a></li>
+  <!-- <li><a href=""></a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li> -->
 </ul>
 </details>
 
