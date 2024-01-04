@@ -92,8 +92,6 @@ Exomiser performed best in the top first rankings, while LIRICAL led in the top 
 
 ## Further benchmarking of prioritizers (June 2023)
 
-Further benchmarking of prioritizers (June 2023)
-
 We have now added Franklin [link to further details] to this benchmark. As indicated above, prioritization was performed on the WES dataset of 61 patients and the results were recorded to obtain a diagnostic yield when the known causal variant was present in the first, fifth, and 10th top rankings (Figure 2).
 
 <p align="center">
