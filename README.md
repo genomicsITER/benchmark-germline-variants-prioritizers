@@ -24,7 +24,7 @@
   <li><a href="#Benchmark-germline-variants-prioritizers">Benchmarking of causal germline variant prioritizers</a></li>
   <li><a href="#First-benchmark-2022">First benchmarking of prioritizers (2022)</a></li>
   <li><a href="#Further-benchmark-2023">Further benchmarking of prioritizers (June 2023)</a></li>
-  <li><a href="#Software">Bioinformatic tools assessed</a></li>
+  <li><a href="#Software">Bioinformatic tools</a></li>
   <li><a href="#References">References</a></li>
   <li><a href="#Acknowledgements">Acknowledgements</a></li>
   <li><a href="#License and Attribution">License and Attribution</a></li>
@@ -121,7 +121,7 @@ Table: Counts and relative frequencies of correctly prioritized causal variants 
 
 <a name="Software"></a>
 
-## Bioinformatic tools assessed
+## Bioinformatic tools
 
 <details>
 <summary>List of bioinformatic tools assessed (click to display; details are provided below):</summary>
