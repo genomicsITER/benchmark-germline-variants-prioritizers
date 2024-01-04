@@ -23,7 +23,7 @@
 <ul>
   <li><a href="#Benchmark-germline-variants-prioritizers">Benchmarking of causal germline variant prioritizers</a></li>
   <li><a href="#First-benchmark-2022">First benchmarking of prioritizers (2022)</a></li>
-  <li><a href="#Further-benchmark-2023">Further benchmarking of prioritizers (June 2023)</a></li>
+  <li><a href="#Further-benchmark-2023">Further benchmarking of prioritizers: the case of Franklin (June 2023)</a></li>
   <li><a href="#Software">Bioinformatic tools</a></li>
   <li><a href="#References">References</a></li>
   <li><a href="#Acknowledgements">Acknowledgements</a></li>
@@ -68,7 +68,9 @@ The WES dataset was obtained from 61 unselected patients diagnosed with differen
   </a>
 </p>
 
-The corresponding Human Phenotype Ontology terms for each case, which would be needed for particular prioritizers, is available from this repository [link]. Libraries were prepared using the DNA Prep with Enrichment kit (Illumina Inc.) following the methods described elsewhere [<a href="#References">2</a>]. A fraction of the causal variants were not captured by WES (8.2%) or did not pass the quality control criteria (13.1%). Worth noting, many of the applications found in the literature were unavailable or had technical limitations. We end up using 9 prioritizers in the evaluation. Variant prioritizations were performed on the WES dataset of 61 patients by the selected tools and recorded to obtain a diagnostic yield when the known causal variant was present in the first, fifth, and 10th top rankings (Figure 1). 
+The corresponding Human Phenotype Ontology terms for each case, which would be needed for particular prioritizers, is available from this repository [link]. Libraries were prepared using the DNA Prep with Enrichment kit (Illumina Inc.) following the methods described elsewhere [<a href="#References">2</a>]. A fraction of the causal variants were not captured by WES (8.2%) or did not pass the quality control criteria (13.1%). Worth noting, many of the applications found in the literature were unavailable or had technical limitations. 
+
+We end up using 9 prioritizers in the evaluation. Variant prioritizations were performed on the WES dataset of 61 patients by the selected tools and recorded to obtain a diagnostic yield when the known causal variant was present in the first, fifth, and 10th top rankings (Figure 1). 
 
 <p align="center">
   <a href="#Figure1" title="Up">
@@ -90,12 +92,14 @@ Exomiser performed best in the top first rankings, while LIRICAL led in the top 
 
 <a name="further-benchmark-2023"></a>
 
-## Further benchmarking of prioritizers (June 2023)
+## Further benchmarking of prioritizers: the case of <i>Franklin</i> (June 2023)
 
-We have now added Franklin [link to further details] to this benchmark. As indicated above, prioritization was performed on the WES dataset of 61 patients and the results were recorded to obtain a diagnostic yield when the known causal variant was present in the first, fifth, and 10th top rankings (Figure 2).
+We have now added Franklin [link to further details] to this benchmark (Figure 2).
+
+Franklin was tested after uploading all 61 cases of our dataset, their compressed VCF files using GRCh37 (hg19) as a genomic reference, and their respective HPO terms. All cases were processed correctly by the tool except for one case, where an error showed and no results were displayed. We suspect that this error might be related to a high number of HPOs (190 HPO terms).
 
 <p align="center">
-  <a href="#Figure1" title="Up">
+  <a href="#Figure2" title="Up">
     <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/figures/figure2.png" width="auto" />
   </a>
 </p>
@@ -104,18 +108,28 @@ We have now added Franklin [link to further details] to this benchmark. As indic
 
 Exomiser continues to be the best-performing tool in the top first rankings (Table 2). Franklin rankings were nearly as good as LIRICAL and PhenIX. As an important benefit, Franklin offers other user-friendly representations of the results.
 
-  <a href="#Figure1" title="Up">
+  <a href="#Table2" title="Up">
     <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/figures/table2.png" width="auto" />
   </a>
 </p>
 
+Table 2 displays the results of Franklin's performance using the dataset of cases, according to the position of the causal variant in the corresponding list of prioritized genetic variants.
+
 **Table 2**. Counts and relative frequencies of correctly prioritized causal variants among the 61 patients. Significance for the pairwise comparisons for the percentage of correctly prioritized causal variants between a given tool and Exomiser are indicated.
+
+In summary, causal genes have been correctly prioritized in 39 cases out of 61 in total in the top position of the results, while only 41 were correctly identified in the top 5 and top 10 of the output. Franklin then becomes the fourth best performing tool considering only top 1 results, after Exomiser, PhenIX, and LIRICAL. It is surprising how the values between the three top considerations of the results stand very close (39, 41, 41), which may suggest a clear pattern in its performance and would not improve much more after input filtering of low-quality variants.
+
+Franklin holds an easy-going, intuitive, and friendly web interface. Accessible from any type of operating system, no additional software is needed to use the tool nor extensive knowledge of bioinformatics. Many options are accessible to filter by phenotypes, a gene panel, HPO terms, etc, and also seem to be extremely useful for deep further individual investigation of each case, especially for professionals in the clinical field. If a WES/WGS approach is selected, the tool also allows the user to specify a virtual gene panel and easily apply it to the variant results. Due to its high level of automatization and consistent maintenance, automatic reanalysis is certainly a robust strength of this tool. Revisiting the case on the website is enough to update the results according to the possibly changing up-to-date ACMG criteria. However, testing the tool is a slightly challenging experience. The website is so optimized for the individual study of clinical cases, that it allows the application of a customized virtual gene panel as the same filter for several cases, but it does not allow the upload of phenopackets with phenotypic information, or even multiple HPO terms at once at the moment, nor the possibility to easily indicate the same HPO terms for more cases in a few clicks. Automatization of the evaluation of this tool is simply not possible, it requires a highly time-consuming amount of manual work and human interaction with the interface, probably because of the high specialization of the interface for professionals in clinics. Also, the tool was developed by a private company and it is currently running on external private servers. The company supplies robust and constant maintenance, but to an opaque pipeline, where parameters are sealed and cannot be modified, as opposed to open-source software, free to change but non-consistently maintained by the community.
+Despite its current flaws, Franklin is a promising variant prioritizing tool. It holds the potential to assist in a clinical context of genetic data analysis of affected individuals to identify causal genetic variants of the disease, accelerating a difficult diagnosis and further access to available treatments for genetic conditions.
 
 <p align="right">
   <a href="#Variants-prioritizers" title="Up">
     <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2 px;" />
   </a>
 </p>
+
+
+
 
 <hr>
 <!-- ------------------ SECTION 6 ------------------ -->
@@ -143,6 +157,8 @@ Exomiser continues to be the best-performing tool in the top first rankings (Tab
 <li><a href="http://www.mulinlab.org/varnote/application.html#PAT">VarNote-PAT v.2020</a>: a web application designed to prioritize pathogenic regulatory variants using genomic data (Huang et al., 2020). VCF files and PED files are required. Postfiltered VCF files were provided, along with a mock PED file (since all the patients under study were unrelated). All variants were selected on the settings page to be included in the results report.</li>
 
 <li><a href="https://web.stanford.edu/group/wonglab/Xrare/xrare-pub.2021.html">Xrare v.2021</a>: an R-dependent library dedicated to disease-causing variant prioritization based on phenotypes and genetic features. The algorithm annotates each variant internally with a specific format in order to assign “predicted” phenotype similarity scores following ACMG/AMP best practices in assessing pathogenicity of genetic variants. It requires a compressed VCF file and HPO terms per sample (Li et al., 2019).</li>
+
+<li><a href="https://franklin.genoox.com">Franklin</a>:Franklin is an online tool, defined as a connectivity hub across the medical genetics domain to extend actionable genomic information to  patients care.</li>
 
 <ul>
 </details>
