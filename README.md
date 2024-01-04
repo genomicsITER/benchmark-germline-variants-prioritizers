@@ -46,8 +46,8 @@ This repository has been devised to centralize our continuous efforts to benchma
 Our aim is to maintain active this comparison using the same WES dataset while additional tools for variant prioritization become available. As such, this page will be displaying updated results beyond those published in research articles.
 
 <p align="right">
-  <a href="#Influenza" title="Up">
-    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/tree/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
+  <a href="#Variants-prioritizers" title="Up">
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
   </a>
 </p>
 
@@ -68,8 +68,8 @@ Figure 1: Cumulative percentage of correctly prioritized causal variants among t
 Exomiser performed best in the top first rankings, while LIRICAL led in the top fifth. We concluded that Xrare, Exomiser, LIRICAL, and PhenIX were the most efficient options for variant prioritization.
 
 <p align="right">
-  <a href="#Influenza" title="Up">
-    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/tree/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
+  <a href="#Variants-prioritizers" title="Up">
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
   </a>
 </p>
 
@@ -95,8 +95,8 @@ Table 2
 Table: Counts and relative frequencies of correctly prioritized causal variants among the 61 patients. Significance for the pairwise comparisons for the percentage of correctly prioritized causal variants between a given tool and Exomiser are indicated.
 
 <p align="right">
-  <a href="#Influenza" title="Up">
-    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/tree/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
+  <a href="#Variants-prioritizers" title="Up">
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
   </a>
 </p>
 
@@ -111,8 +111,8 @@ Table: Counts and relative frequencies of correctly prioritized causal variants 
 2: Díaz-de Usera A, Lorenzo-Salazar JM, Rubio-Rodríguez LA, Muñoz-Barrera A, Guillen-Guio B, Marcelino-Rodríguez I, García-Olivares V, Mendoza-Alvarez A, Corrales A, Íñigo-Campos A, González-Montelongo R, Flores C. Evaluation of Whole-Exome Enrichment Solutions: Lessons from the High-End of the Short-Read Sequencing Scale. J Clin Med. 2020 Nov 13;9(11):3656. doi: 10.3390/jcm9113656. PMID: 33202991.
   
 <p align="right">
-  <a href="#Influenza" title="Up">
-    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/tree/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
+  <a href="#Variants-prioritizers" title="Up">
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
   </a>
 </p>
 
@@ -126,8 +126,8 @@ Table: Counts and relative frequencies of correctly prioritized causal variants 
 Work in progress...
 
 <p align="right">
-  <a href="#Influenza" title="Up">
-    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/tree/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
+  <a href="#Variants-prioritizers" title="Up">
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
   </a>
 </p>
 
@@ -143,8 +143,8 @@ This repository and data exports are released under the CC BY 4.0 license. Pleas
 Please cite this repository as: _"Influenza repository of the Reference Laboratory for Epidemiological Surveillance of Pathogens in the Canary Islands (accessed on YYYY-MM-DD)"_. And do not forget to <a href="#How-to-cite">cite the paper</a> (see the section "How to cite" below) when it becomes available. 
 
 <p align="right">
-  <a href="#Influenza" title="Up">
-    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/tree/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
+  <a href="#Variants-prioritizers" title="Up">
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
   </a>
 </p>
 
@@ -166,8 +166,8 @@ Please cite this repository as: _"Influenza repository of the Reference Laborato
 Follow us on Twitter <a href="https://twitter.com/labcflores" title="Follow to @labcflores on Twitter" > @labcflores<img src="https://github.com/genomicsITER/influenza/blob/main/images/Twitter_Social_Icon_Circle_Color.png" width="32px" /></a>
 
 <p align="right">
-  <a href="#Influenza" title="Up">
-    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/tree/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
+  <a href="#Variants-prioritizers" title="Up">
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
   </a>
 </p>
 
@@ -185,8 +185,8 @@ Work in progress...
 > To use the deposited sequences at GISAID, please, acknowledge this work as recommended by GISAID. Find the 'GISAID acknowledge tables' <a href="https://github.com/genomicsITER/influenza/tree/main/sequences/acknowledgements">here</a>.
 
 <p align="right">
-  <a href="#Influenza" title="Up">
-    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/tree/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
+  <a href="#Variants-prioritizers" title="Up">
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
   </a>
 </p>
 
@@ -202,7 +202,7 @@ Work in progress...
 > January 4, 2024. Created the private version of this repository.
 
 <p align="right">
-  <a href="#Influenza" title="Up">
-    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/tree/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
+  <a href="#Variants-prioritizers" title="Up">
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
   </a>
 </p>
