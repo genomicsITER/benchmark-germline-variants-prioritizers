@@ -16,8 +16,6 @@
 
 # Benchmarking of causal germline variant prioritizers
 
-<hr>
-<!-- ------------------ SECTION 2 ------------------ -->
 
 ## Table of contents
 <ul>
@@ -34,7 +32,7 @@
  </ul>
 
 <hr>
-<!-- ------------------ SECTION 3 ------------------ -->
+<!-- ------------------ SECTION 2 ------------------ -->
 
 <a name="Benchmark-germline-variants-prioritizers"></a>
 
@@ -53,7 +51,7 @@ Our aim is to maintain active this comparison using the same WES dataset while a
 </p>
 
 <hr>
-<!-- ------------------ SECTION 4 ------------------ -->
+<!-- ------------------ SECTION 3 ------------------ -->
 
 <a name="First-benchmark-2022"></a>
 ## First benchmarking of prioritizers (2022)
@@ -88,7 +86,7 @@ Exomiser performed best in the top first rankings, while LIRICAL led in the top 
 </p>
 
 <hr>
-<!-- ------------------ SECTION 5 ------------------ -->
+<!-- ------------------ SECTION 4 ------------------ -->
 
 <a name="further-benchmark-2023"></a>
 
@@ -130,7 +128,7 @@ Despite its current flaws, Franklin is a promising variant prioritizing tool. It
 </p>
 
 <hr>
-<!-- ------------------ SECTION 6 ------------------ -->
+<!-- ------------------ SECTION 5 ------------------ -->
 
 <a name="Software"></a>
 
@@ -169,7 +167,7 @@ Despite its current flaws, Franklin is a promising variant prioritizing tool. It
 </p>
 
 <hr>
-<!-- ------------------ SECTION 7 ------------------ -->
+<!-- ------------------ SECTION 6 ------------------ -->
 
 <a name="References"></a>
 ## References
@@ -186,7 +184,7 @@ Despite its current flaws, Franklin is a promising variant prioritizing tool. It
 
 
 <hr>
-<!-- ------------------ SECTION 8 ------------------ -->
+<!-- ------------------ SECTION 7 ------------------ -->
 
 <a name="Acknowledgements"></a>
 ## Acknowledgements
@@ -207,7 +205,7 @@ The funders had no role in the study design, collection, analysis, and interpret
 
 
 <hr>
-<!-- ------------------ SECTION 9 ------------------ -->
+<!-- ------------------ SECTION 8 ------------------ -->
 
 <a name="License and Attribution"></a>
 ## License and Attribution
@@ -224,7 +222,7 @@ Please cite this repository as: _"Repository for Benchmarking of causal germline
 
 
 <hr>
-<!-- ------------------ SECTION 10 ------------------ -->
+<!-- ------------------ SECTION 9 ------------------ -->
 
 <a name="Participating"></a>
 ## Participating
@@ -241,7 +239,7 @@ Follow us on Twitter <a href="https://twitter.com/labcflores" title="Follow to @
 
 
 <hr>
-<!-- ------------------ SECTION 11 ------------------ -->
+<!-- ------------------ SECTION 10 ------------------ -->
 
 <a name="How-to-cite"></a>
 
@@ -257,7 +255,7 @@ Follow us on Twitter <a href="https://twitter.com/labcflores" title="Follow to @
 
 
 <hr>
-<!-- ------------------ SECTION 12 ------------------ -->
+<!-- ------------------ SECTION 11 ------------------ -->
 
 <a name="Update logs"></a>
 ## Update logs
