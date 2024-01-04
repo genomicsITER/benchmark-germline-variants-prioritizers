@@ -126,36 +126,26 @@ Table: Counts and relative frequencies of correctly prioritized causal variants 
 <details>
 <summary>List of bioinformatic tools assessed (click to display; details are provided below):</summary>
 <ul>
-  <li><a href="https://amelie.stanford.edu/">AMELIE v.2.0.6</a></li>
-  <li><a href="https://www.sanger.ac.uk/tool/exomiser/">Exomiser v.12.1.0</a></li>
-  <li><a href="https://lirical.readthedocs.io/en/latest/index.html">LIRICAL v.1.3.4</a></li>
-  <li><a href="https://github.com/pkuerten/phen-gen">Phen-Gen v.1.0</a></li>
-  <li><a href="https://github.com/exomiser/Exomiser">PhenIX v.12.1.0 (integrated into Exomiser)</a></li>
-  <li><a href="https://github.com/a-xavier/tapes">TAPES v.0.1.1</a></li>
-  <li><a href="http://www.mulinlab.org/varnote/application.html#PAT">VarNote-PAT v.2020</a></li>
-  <li><a href="https://web.stanford.edu/group/wonglab/Xrare/xrare-pub.2021.html">Xrare v.2021</a></li>
-  <!-- <li><a href=""></a></li>
-  <li><a href=""></a></li>
-  <li><a href=""></a></li> -->
-</ul>
+
+<li><a href="https://amelie.stanford.edu/">AMELIE v.2.0.6</a>: an encrypted web-interfaced application designed to prioritize causative variants through analysis of hundreds of thousands of scientific articles while integrating the patient’s phenotype (Birgmeier et al., 2020). Besides the variant (VCF) files, HPO terms are mandatory for the analysis. The results are returned in a web browser showing a ranking of most probable causative genes in decreasing order based on the assigned pathogenicity score. Each run must be submitted manually, which complicates batch analysis.<li>
+
+<li><a href="https://www.sanger.ac.uk/tool/exomiser/">Exomiser v.12.1.0</a>: a command-line and web client designed for differential diagnoses of Mendelian diseases and identification of novel associations between genes and diseases leveraging HPO terms (Smedley et al., 2015). Only the VCF files are mandatory, with the option to include HPO terms and a PED file. The configuration must be manually defined by using a YML file per run. We chose to use the command-line version for automation, relying on the default prioritization algorithm (hiPHIVE), VCF files and HPO terms only, while activating all sources for pathogenicity scores (CADD v.1.5, ReMM v.0.3.1) in the YML template for exonic data and v.1909_hg19 and 1909_phenotype for running databases.<li>
+
+<li><a href="https://lirical.readthedocs.io/en/latest/index.html"LIRICAL v.1.3.4</a>: a command-line application that calculates the likelihood ratio of each phenotypic abnormality. It provides an estimated value of the post-test probability of candidate diagnoses and the consistency of each phenotypic abnormality and the genotype with the diagnosis (Robinson et al., 2020). Since genotypic data is optional, YML files or phenopackets (Jacobsen et al., 2022) are eligible as input. In this study, we used VCF files, and YML files were adapted and processed to ease automatization. LIRICAL and Exomiser are profoundly connected because of the required sharing of local libraries for functionality.<li>
+
+<li><a href="https://github.com/pkuerten/phen-gen">Phen-Gen v.1.0</a>: a command-line application that uses a Bayesian framework to explore previous knowledge of phenotype-driven variant analysis (Javed et al., 2014). VCF files, PED files, and HPO terms are mandatory for the analysis. A mock PED file was provided (since all the patients under study were unrelated). The output scores and the annotated variants were further managed using R v.3.6.3 and RStudio v.1.2.5033 to merge and convert the results into a legible ranking list.<li>
+
+<li><a href="https://github.com/exomiser/Exomiser">PhenIX v.12.1.0</a>: a computational algorithm for filtering and ranking candidate genes based on variant pathogenicity, variant frequency, and potential clinical relevance (Zemojtel et al., 2014). It existed as a standalone tool until it was later integrated into the Exomiser source code. It is currently available as an alternative prioritization algorithm in the configuration of Exomiser (Kelly et al., 2022; Smedley et al., 2015). In this study, we kept the rest of the configuration under default conditions except that the PhenIX algorithm was activated.<li>
+
+<li><a href="https://github.com/a-xavier/tapes">TAPES v.0.1.1</a>: a command-line tool for annotation and variant prioritization according to pathogenetic scores by assigning the American College of Medical Genetics and Genomics criteria for genetic variant interpretation (Richards et al., 2015), ANNOVAR annotations, and implementation models to calculate a unique pathogenicity score (Tavtigian et al., 2018; Xavier et al., 2019). Since HPO terms are not used by this method, annotated VCF files were the only mandatory files for its use. Postfiltered VCF files were used as input.<li>
+
+<li><a href="http://www.mulinlab.org/varnote/application.html#PAT">VarNote-PAT v.2020</a>: a web application designed to prioritize pathogenic regulatory variants using genomic data (Huang et al., 2020). VCF files and PED files are required. Postfiltered VCF files were provided, along with a mock PED file (since all the patients under study were unrelated). All variants were selected on the settings page to be included in the results report.<li>
+
+<li><a href="https://web.stanford.edu/group/wonglab/Xrare/xrare-pub.2021.html">Xrare v.2021</a>: an R-dependent library dedicated to disease-causing variant prioritization based on phenotypes and genetic features. The algorithm annotates each variant internally with a specific format in order to assign “predicted” phenotype similarity scores following ACMG/AMP best practices in assessing pathogenicity of genetic variants. It requires a compressed VCF file and HPO terms per sample (Li et al., 2019).<li>
+
+<ul>
 </details>
 
-
-**AMELIE v.2.0.6**: an encrypted web-interfaced application designed to prioritize causative variants through analysis of hundreds of thousands of scientific articles while integrating the patient’s phenotype (Birgmeier et al., 2020). Besides the variant (VCF) files, HPO terms are mandatory for the analysis. The results are returned in a web browser showing a ranking of most probable causative genes in decreasing order based on the assigned pathogenicity score. Each run must be submitted manually, which complicates batch analysis.
-
-**Exomiser v.12.1.0**: a command-line and web client designed for differential diagnoses of Mendelian diseases and identification of novel associations between genes and diseases leveraging HPO terms (Smedley et al., 2015). Only the VCF files are mandatory, with the option to include HPO terms and a PED file. The configuration must be manually defined by using a YML file per run. We chose to use the command-line version for automation, relying on the default prioritization algorithm (hiPHIVE), VCF files and HPO terms only, while activating all sources for pathogenicity scores (CADD v.1.5, ReMM v.0.3.1) in the YML template for exonic data and v.1909_hg19 and 1909_phenotype for running databases.
-
-**LIRICAL v.1.3.4**: a command-line application that calculates the likelihood ratio of each phenotypic abnormality. It provides an estimated value of the post-test probability of candidate diagnoses and the consistency of each phenotypic abnormality and the genotype with the diagnosis (Robinson et al., 2020). Since genotypic data is optional, YML files or phenopackets (Jacobsen et al., 2022) are eligible as input. In this study, we used VCF files, and YML files were adapted and processed to ease automatization. LIRICAL and Exomiser are profoundly connected because of the required sharing of local libraries for functionality.
-
-**Phen-Gen v.1.0**: a command-line application that uses a Bayesian framework to explore previous knowledge of phenotype-driven variant analysis (Javed et al., 2014). VCF files, PED files, and HPO terms are mandatory for the analysis. A mock PED file was provided (since all the patients under study were unrelated). The output scores and the annotated variants were further managed using R v.3.6.3 and RStudio v.1.2.5033 to merge and convert the results into a legible ranking list.
-
-**PhenIX v.12.1.0**: a computational algorithm for filtering and ranking candidate genes based on variant pathogenicity, variant frequency, and potential clinical relevance (Zemojtel et al., 2014). It existed as a standalone tool until it was later integrated into the Exomiser source code. It is currently available as an alternative prioritization algorithm in the configuration of Exomiser (Kelly et al., 2022; Smedley et al., 2015). In this study, we kept the rest of the configuration under default conditions except that the PhenIX algorithm was activated.
-
-**TAPES v.0.1.1**: a command-line tool for annotation and variant prioritization according to pathogenetic scores by assigning the American College of Medical Genetics and Genomics criteria for genetic variant interpretation (Richards et al., 2015), ANNOVAR annotations, and implementation models to calculate a unique pathogenicity score (Tavtigian et al., 2018; Xavier et al., 2019). Since HPO terms are not used by this method, annotated VCF files were the only mandatory files for its use. Postfiltered VCF files were used as input.
-
-**VarNote-PAT v.2020**: a web application designed to prioritize pathogenic regulatory variants using genomic data (Huang et al., 2020). VCF files and PED files are required. Postfiltered VCF files were provided, along with a mock PED file (since all the patients under study were unrelated). All variants were selected on the settings page to be included in the results report.
-
-**Xrare v.2021**: an R-dependent library dedicated to disease-causing variant prioritization based on phenotypes and genetic features. The algorithm annotates each variant internally with a specific format in order to assign “predicted” phenotype similarity scores following ACMG/AMP best practices in assessing pathogenicity of genetic variants. It requires a compressed VCF file and HPO terms per sample (Li et al., 2019).
 
 <p align="right">
   <a href="#Variants-prioritizers" title="Up">
