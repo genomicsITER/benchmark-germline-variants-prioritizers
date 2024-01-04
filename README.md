@@ -10,7 +10,7 @@
 <!-- ------------------ SECTION 1 ------------------ -->
 <p align="left">
   <a href="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers" title="Instituto Tecnológico y de Energ&iacute;as Renovables (ITER) / Institute of Technology and Renewable Energy (ITER)">
-    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/ITER_logo.png" width="auto" /> 
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/logos_ITER-FIISC.png" width="auto" /> 
       </a>
 </p>
 
