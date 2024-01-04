@@ -7,7 +7,7 @@
 <!-- See the "Contact us" section to collaborate with us to growth
 <!-- this repository. ;=)
 
-<!-- ------------------ SECTION ------------------ -->
+<!-- ------------------ SECTION 1 ------------------ -->
 <p align="left">
   <a href="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers" title="Instituto Tecnológico y de Energ&iacute;as Renovables (ITER) / Institute of Technology and Renewable Energy (ITER)">
     <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/ITER_logo.png" width="auto" /> 
@@ -17,7 +17,7 @@
 ## Benchmarking of causal germline variant prioritizers
 
 <hr>
-<!-- ------------------ SECTION ------------------ -->
+<!-- ------------------ SECTION 2 ------------------ -->
 
 ## Table of contents
 <ul>
@@ -33,7 +33,7 @@
  </ul>
 
 <hr>
-<!-- ------------------ SECTION 1 ------------------ -->
+<!-- ------------------ SECTION 3 ------------------ -->
 
 <a name="Benchmark-germline-variants-prioritizers"></a>
 
@@ -52,7 +52,7 @@ Our aim is to maintain active this comparison using the same WES dataset while a
 </p>
 
 <hr>
-<!-- ------------------ SECTION 2 ------------------ -->
+<!-- ------------------ SECTION 4 ------------------ -->
 
 <a name="First-benchmark-2022"></a>
 ## First benchmarking of prioritizers (2022)
@@ -85,7 +85,7 @@ Exomiser performed best in the top first rankings, while LIRICAL led in the top 
 </p>
 
 <hr>
-<!-- ------------------ SECTION 3 ------------------ -->
+<!-- ------------------ SECTION 5 ------------------ -->
 
 <a name="further-benchmark-2023"></a>
 
@@ -116,7 +116,7 @@ Table: Counts and relative frequencies of correctly prioritized causal variants 
 </p>
 
 <hr>
-<!-- ------------------ SECTION 7 ------------------ -->
+<!-- ------------------ SECTION 6 ------------------ -->
 
 <a name="References"></a>
 ## References
@@ -133,12 +133,35 @@ Table: Counts and relative frequencies of correctly prioritized causal variants 
 
 
 <hr>
-<!-- ------------------ SECTION 8 ------------------ -->
+<!-- ------------------ SECTION 7 ------------------ -->
 
 <a name="Acknowledgements"></a>
 ## Acknowledgements
 
-Work in progress...
+Analyses were conducted in the TeideHPC thanks to INP-2011-0063-PCT-430000-ACT (INNPLANTA program) from the Spanish Ministry of Economy and Competitiveness. The authors would like to thank the TeideHPC team for the HPC support.
+
+We would also like to thank the authors of Xrare for sharing a copy of the software for benchmark study referenced in [<a href="#References">1</a>].
+
+This work was supported by Instituto de Salud Carlos III (FI18/00230; CD19/00231; PI20/00876) and Ministerio de Ciencia e Innovación [RTC‐2017‐6471‐1], co‐funded by the European Regional Development Fund (ERDF); Cabildo Insular de Tenerife [CGIEU0000219140]; the agreement with Instituto Tecnológico y de Energías Renovables (ITER) to strengthen scientific and technological education, training research, development and innovation in Genomics, Personalized Medicine and Biotechnology [grant number OA17/008]. Alejandro Mendoza‐Alvarez and Eva Tosco‐Herrera were supported by a fellowship from Agencia Canaria de Investigación Innovación y Sociedad de la Información del Gobierno De Canarias (TESIS2020010002, TE-SIS2021010046) co‐funded by European Social Fund.
+
+The funders had no role in the study design, collection, analysis, and interpretation of data, in the writing of the manuscript or in the decision to submit the manuscripts for publication.
+
+<p align="right">
+  <a href="#Variants-prioritizers" title="Up">
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2 px;" />
+  </a>
+</p>
+
+
+<hr>
+<!-- ------------------ SECTION 8 ------------------ -->
+
+<a name="License and Attribution"></a>
+## License and Attribution
+
+This repository and data exports are released under the CC BY 4.0 license. Please acknowledge the authors and the open source software used in this work (third-party copyrights and licenses may apply).
+
+Please cite this repository as: _"Repository for Benchmarking of causal germline variant prioritizers (accessed on YYYY-MM-DD)"_. And do not forget to <a href="#How-to-cite">cite the papers</a> (see the section "How to cite" below). 
 
 <p align="right">
   <a href="#Variants-prioritizers" title="Up">
@@ -149,23 +172,6 @@ Work in progress...
 
 <hr>
 <!-- ------------------ SECTION 9 ------------------ -->
-
-<a name="License and Attribution"></a>
-## License and Attribution
-
-This repository and data exports are released under the CC BY 4.0 license. Please acknowledge the authors, the originating and submitting laboratories for the genetic sequences and metadata, and the open source software used in this work (third-party copyrights and licenses may apply).
-
-Please cite this repository as: _"Influenza repository of the Reference Laboratory for Epidemiological Surveillance of Pathogens in the Canary Islands (accessed on YYYY-MM-DD)"_. And do not forget to <a href="#How-to-cite">cite the paper</a> (see the section "How to cite" below) when it becomes available. 
-
-<p align="right">
-  <a href="#Variants-prioritizers" title="Up">
-    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2 px;" />
-  </a>
-</p>
-
-
-<hr>
-<!-- ------------------ SECTION 10 ------------------ -->
 
 <a name="Participating"></a>
 ## Participating
@@ -178,7 +184,23 @@ Please cite this repository as: _"Influenza repository of the Reference Laborato
   </a>
 </p>
 
-Follow us on Twitter <a href="https://twitter.com/labcflores" title="Follow to @labcflores on Twitter" > @labcflores<img src="https://github.com/genomicsITER/influenza/blob/main/images/Twitter_Social_Icon_Circle_Color.png" width="32px" /></a>
+Follow us on Twitter <a href="https://twitter.com/labcflores" title="Follow to @labcflores on Twitter" > @labcflores<img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/X_logo-black.png" width="32px" /></a>
+
+<p align="right">
+  <a href="#Variants-prioritizers" title="Up">
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2 px;" />
+  </a>
+</p>
+
+
+<hr>
+<!-- ------------------ SECTION 10 ------------------ -->
+
+<a name="How-to-cite"></a>
+
+## How to cite this work
+
+> Please, see the references with published papers by our group. In addition, please, follow the 'License and Attribution' section to cite this repository.
 
 <p align="right">
   <a href="#Variants-prioritizers" title="Up">
@@ -189,25 +211,6 @@ Follow us on Twitter <a href="https://twitter.com/labcflores" title="Follow to @
 
 <hr>
 <!-- ------------------ SECTION 11 ------------------ -->
-
-<a name="How-to-cite"></a>
-## How to cite this work
-
-Work in progress...
-
-> This work has not been publised yet. See 'License and Attribution' section to cite this repository.
-
-> To use the deposited sequences at GISAID, please, acknowledge this work as recommended by GISAID. Find the 'GISAID acknowledge tables' <a href="https://github.com/genomicsITER/influenza/tree/main/sequences/acknowledgements">here</a>.
-
-<p align="right">
-  <a href="#Variants-prioritizers" title="Up">
-    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2 px;" />
-  </a>
-</p>
-
-
-<hr>
-<!-- ------------------ SECTION 12 ------------------ -->
 
 <a name="Update logs"></a>
 ## Update logs
