@@ -20,8 +20,6 @@
 
 # Benchmarking of causal germline variant prioritizers
 
-<hr>
-
 ## Background and justification
 
 Next-generation sequencing facilitates fast and efficient clinical diagnosis of genetic diseases. Whole-exome sequencing (WES) has become a standard approach to efficiently analyze virtually all coding regions from known genes, where more than 80% of pathogenic and known causal variants of Mendelian diseases have been located by now. Since most causal variants of Mendelian diseases are exonic, WES has become a standard diagnostic standard for many practitioners, but causative variant prioritization constitutes a bottleneck. Due to the large number of detectable genetic variants, the development of a standardized protocol to accelerate causative variant identification is necessary.
