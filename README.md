@@ -14,12 +14,13 @@
       </a>
 </p>
 
-# Benchmarking of causal germline variant prioritizers
-
 <hr>
+
 <!-- ------------------ SECTION 2 ------------------ -->
 
 <a name="Benchmark-germline-variants-prioritizers"></a>
+
+# Benchmarking of causal germline variant prioritizers
 
 ## Background and justification
 
