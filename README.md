@@ -47,7 +47,7 @@ Our aim is to maintain active this comparison using the same WES dataset while a
 
 <p align="right">
   <a href="#Variants-prioritizers" title="Up">
-    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2 px;" />
   </a>
 </p>
 
@@ -80,7 +80,7 @@ Exomiser performed best in the top first rankings, while LIRICAL led in the top 
 
 <p align="right">
   <a href="#Variants-prioritizers" title="Up">
-    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2 px;" />
   </a>
 </p>
 
@@ -111,7 +111,7 @@ Table: Counts and relative frequencies of correctly prioritized causal variants 
 
 <p align="right">
   <a href="#Variants-prioritizers" title="Up">
-    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2 px;" />
   </a>
 </p>
 
@@ -121,13 +121,13 @@ Table: Counts and relative frequencies of correctly prioritized causal variants 
 <a name="References"></a>
 ## References
 
-1: Tosco-Herrera E, Muñoz-Barrera A, Jáspez D, Rubio-Rodríguez LA, Mendoza-Alvarez A, Rodriguez-Perez H, Jou J, Iñigo-Campos A, Corrales A, Ciuffreda L, Martinez-Bugallo F, Prieto-Morin C, García-Olivares V, González-Montelongo R, Lorenzo-Salazar JM, Marcelino-Rodriguez I, Flores C. Evaluation of a whole-exome sequencing pipeline and benchmarking of causal germline variant prioritizers. Hum Mutat. 2022 Dec;43(12):2010-2020. doi: 10.1002/humu.24459. Epub 2022 Sep 12. PMID: 36054330.
+1: Tosco-Herrera E, Muñoz-Barrera A, Jáspez D, Rubio-Rodríguez LA, Mendoza-Alvarez A, Rodriguez-Perez H, Jou J, Iñigo-Campos A, Corrales A, Ciuffreda L, Martinez-Bugallo F, Prieto-Morin C, García-Olivares V, González-Montelongo R, Lorenzo-Salazar JM, Marcelino-Rodriguez I, Flores C. Evaluation of a whole-exome sequencing pipeline and benchmarking of causal germline variant prioritizers. Hum Mutat. 2022 Dec;43(12):2010-2020. doi: <a href="https://doi.org/10.1002/humu.24459">10.1002/humu.24459</a>. Epub 2022 Sep 12. PMID: 36054330.
 
-2: Díaz-de Usera A, Lorenzo-Salazar JM, Rubio-Rodríguez LA, Muñoz-Barrera A, Guillen-Guio B, Marcelino-Rodríguez I, García-Olivares V, Mendoza-Alvarez A, Corrales A, Íñigo-Campos A, González-Montelongo R, Flores C. Evaluation of Whole-Exome Enrichment Solutions: Lessons from the High-End of the Short-Read Sequencing Scale. J Clin Med. 2020 Nov 13;9(11):3656. doi: 10.3390/jcm9113656. PMID: 33202991.
+2: Díaz-de Usera A, Lorenzo-Salazar JM, Rubio-Rodríguez LA, Muñoz-Barrera A, Guillen-Guio B, Marcelino-Rodríguez I, García-Olivares V, Mendoza-Alvarez A, Corrales A, Íñigo-Campos A, González-Montelongo R, Flores C. Evaluation of Whole-Exome Enrichment Solutions: Lessons from the High-End of the Short-Read Sequencing Scale. J Clin Med. 2020 Nov 13;9(11):3656. <a href="https://doi.org/10.3390/jcm9113656">doi: 10.3390/jcm9113656</a>. PMID: 33202991.
   
 <p align="right">
   <a href="#Variants-prioritizers" title="Up">
-    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2 px;" />
   </a>
 </p>
 
@@ -142,7 +142,7 @@ Work in progress...
 
 <p align="right">
   <a href="#Variants-prioritizers" title="Up">
-    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2 px;" />
   </a>
 </p>
 
@@ -159,7 +159,7 @@ Please cite this repository as: _"Influenza repository of the Reference Laborato
 
 <p align="right">
   <a href="#Variants-prioritizers" title="Up">
-    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2 px;" />
   </a>
 </p>
 
@@ -182,7 +182,7 @@ Follow us on Twitter <a href="https://twitter.com/labcflores" title="Follow to @
 
 <p align="right">
   <a href="#Variants-prioritizers" title="Up">
-    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2 px;" />
   </a>
 </p>
 
@@ -201,7 +201,7 @@ Work in progress...
 
 <p align="right">
   <a href="#Variants-prioritizers" title="Up">
-    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2 px;" />
   </a>
 </p>
 
@@ -218,6 +218,6 @@ Work in progress...
 
 <p align="right">
   <a href="#Variants-prioritizers" title="Up">
-    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2px;" />
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2 px;" />
   </a>
 </p>
