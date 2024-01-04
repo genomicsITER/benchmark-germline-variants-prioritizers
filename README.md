@@ -214,12 +214,6 @@ Please cite this repository as: _"Repository for Benchmarking of causal germline
 
 > Want to share your relevant links? Place a Direct Message to @labcflores on X (see below).
 
- <p align="left">
-  <a href="https://www.iter.es/areas/area-genomica/" title="Contact us at the Genomics Division of the Institute of Technology and Renewable Energy (ITER), Tenerife, Canary Islands, Spain">
-    <img src="https://github.com/genomicsITER/influenza/blob/main/images/ITER_logo.png" width="30%" /> 
-  </a>
-</p>
-
 Follow us on Twitter <a href="https://twitter.com/labcflores" title="Follow to @labcflores on Twitter" > @labcflores<img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/X_logo-black.png" width="32px" /></a>
 
 <p align="right">
