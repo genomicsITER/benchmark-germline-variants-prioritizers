@@ -157,6 +157,11 @@ Table: Counts and relative frequencies of correctly prioritized causal variants 
 
 **Xrare v.2021**: an R-dependent library dedicated to disease-causing variant prioritization based on phenotypes and genetic features. The algorithm annotates each variant internally with a specific format in order to assign “predicted” phenotype similarity scores following ACMG/AMP best practices in assessing pathogenicity of genetic variants. It requires a compressed VCF file and HPO terms per sample (Li et al., 2019).
 
+<p align="right">
+  <a href="#Variants-prioritizers" title="Up">
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2 px;" />
+  </a>
+</p>
 
 <hr>
 <!-- ------------------ SECTION 7 ------------------ -->
