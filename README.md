@@ -39,9 +39,9 @@
 
 # Background and justification
 
-Next-generation sequencing facilitates fast and efficient clinical diagnosis of genetic diseases. WES has become a standard approach to efficiently analyze virtually all coding regions from known genes, where more than 80% of pathogenic and known causal variants of Mendelian diseases have been located by now. Since most causal variants of Mendelian diseases are exonic, WES has become a standard diagnostic standard for many practitioners, but causative variant prioritization constitutes a bottleneck. Due to the large number of detectable genetic variants, the development of a standardized protocol to accelerate causative variant identification is necessary.
+Next-generation sequencing facilitates fast and efficient clinical diagnosis of genetic diseases. Whole-exome sequencing (WES) has become a standard approach to efficiently analyze virtually all coding regions from known genes, where more than 80% of pathogenic and known causal variants of Mendelian diseases have been located by now. Since most causal variants of Mendelian diseases are exonic, WES has become a standard diagnostic standard for many practitioners, but causative variant prioritization constitutes a bottleneck. Due to the large number of detectable genetic variants, the development of a standardized protocol to accelerate causative variant identification is necessary.
 
-This repository has been devised to centralize our continuous efforts to benchmark the different public tools that become available for germline variant prioritization from whole-exome sequencing (WES) data. Partial results of this benchmark, along with an evaluation of our pipeline to conduct WES was published elsewhere (1: https://onlinelibrary.wiley.com/doi/10.1002/humu.24459).
+This repository has been devised to centralize our continuous efforts to benchmark the different public tools that become available for **germline variant prioritization from whole-exome sequencing** data. Partial results of this benchmark, along with an evaluation of our pipeline to conduct WES was published elsewhere [<a href="#References">1</a>].
 
 Our aim is to maintain active this comparison using the same WES dataset while additional tools for variant prioritization become available. As such, this page will be displaying updated results beyond those published in research articles.
 
@@ -56,15 +56,26 @@ Our aim is to maintain active this comparison using the same WES dataset while a
 
 <a name="First-benchmark-2022"></a>
 ## First benchmarking of prioritizers (2022)
-For this study we aimed to evaluate the performance of open-source tools to accelerate the process of prioritization (1: https://onlinelibrary.wiley.com/doi/10.1002/humu.24459). We assessed an in‐house sample‐to‐sequence pipeline and benchmarked freely available prioritization tools for germline causal variants from WES data.
 
-The WES dataset was obtained from 61 unselected patients diagnosed with different diseases and with known genetic disease causes (Table 1; link). 
+For this study we aimed to evaluate the performance of open-source tools to accelerate the process of prioritization [<a href="#References">1</a>]. We assessed an in‐house sample‐to‐sequence pipeline and benchmarked freely available prioritization tools for germline causal variants from WES data.
 
-Table 1
+The WES dataset was obtained from 61 unselected patients diagnosed with different diseases and with known genetic disease causes (Table 1). 
 
-The corresponding Human Phenotype Oontology terms for each case, which would be needed for particular prioritizers, is available from this repository [link]. Libraries were prepared using the DNA Prep with Enrichment kit (Illumina Inc.) following the methods described elsewhere (2: https://www.mdpi.com/2077-0383/9/11/3656). A fraction of the causal variants were not captured by WES (8.2%) or did not pass the quality control criteria (13.1%). Worth noting, many of the applications found in the literature were unavailable or had technical limitations. We end up using 9 prioritizers in the evaluation. Variant prioritizations were performed on the WES dataset of 61 patients by the selected tools and recorded to obtain a diagnostic yield when the known causal variant was present in the first, fifth, and 10th top rankings. 
+<p align="center">
+  <a href="#Table1" title="Up">
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/figures/table1.png" width="auto" />
+  </a>
+</p>
 
-Figure 1: Cumulative percentage of correctly prioritized causal variants among the 61 patients with WES data according to evaluated in 2022.
+The corresponding Human Phenotype Ontology terms for each case, which would be needed for particular prioritizers, is available from this repository [link]. Libraries were prepared using the DNA Prep with Enrichment kit (Illumina Inc.) following the methods described elsewhere [<a href="#References">2</a>]. A fraction of the causal variants were not captured by WES (8.2%) or did not pass the quality control criteria (13.1%). Worth noting, many of the applications found in the literature were unavailable or had technical limitations. We end up using 9 prioritizers in the evaluation. Variant prioritizations were performed on the WES dataset of 61 patients by the selected tools and recorded to obtain a diagnostic yield when the known causal variant was present in the first, fifth, and 10th top rankings (Figure 1). 
+
+<p align="center">
+  <a href="#Figure1" title="Up">
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/figures/figure1.png" width="auto" />
+  </a>
+</p>
+
+**Figure 1**. Cumulative percentage of correctly prioritized causal variants among the 61 patients with WES data according to evaluated in 2022.
 Exomiser performed best in the top first rankings, while LIRICAL led in the top fifth. We concluded that Xrare, Exomiser, LIRICAL, and PhenIX were the most efficient options for variant prioritization.
 
 <p align="right">
@@ -82,11 +93,15 @@ Exomiser performed best in the top first rankings, while LIRICAL led in the top 
 
 Further benchmarking of prioritizers (June 2023)
 
-We have now added Franklin [link to further details] to this benchmark. As indicated above, prioritization was performed on the WES dataset of 61 patients and the results were recorded to obtain a diagnostic yield when the known causal variant was present in the first, fifth, and 10th top rankings.
+We have now added Franklin [link to further details] to this benchmark. As indicated above, prioritization was performed on the WES dataset of 61 patients and the results were recorded to obtain a diagnostic yield when the known causal variant was present in the first, fifth, and 10th top rankings (Figure 2).
 
-Figure 2
+<p align="center">
+  <a href="#Figure1" title="Up">
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/figures/figure2.png" width="auto" />
+  </a>
+</p>
 
-Figure 2: Cumulative percentage of correctly prioritized causal variants among the 61 patients with WES data according to evaluated tools to date (June 2023).
+**Figure 2**. Cumulative percentage of correctly prioritized causal variants among the 61 patients with WES data according to evaluated tools to date (June 2023).
 
 Exomiser continues to be the best-performing tool in the top first rankings. Franklin rankings were nearly as good as LIRICAL and PhenIX. As an important benefit, Franklin offers other user-friendly representations of the results.
 
