@@ -94,7 +94,7 @@ Exomiser performed best in the top first rankings, while LIRICAL led in the top 
 
 ## Further benchmarking of prioritizers: the case of <i>Franklin</i> (June 2023)
 
-We have now added Franklin [link to further details] to this benchmark (Figure 2).
+We have now added <a href="https://franklin.genoox.com">Franklin</a> to this benchmark (Figure 2).
 
 Franklin was tested after uploading all 61 cases of our dataset, their compressed VCF files using GRCh37 (hg19) as a genomic reference, and their respective HPO terms. All cases were processed correctly by the tool except for one case, where an error showed and no results were displayed. We suspect that this error might be related to a high number of HPOs (190 HPO terms).
 
