@@ -14,6 +14,8 @@
       </a>
 </p>
 
+<hr>
+
 <!-- ------------------ SECTION 2 ------------------ -->
 
 <a name="Benchmark-germline-variants-prioritizers"></a>
