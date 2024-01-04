@@ -102,11 +102,14 @@ We have now added Franklin [link to further details] to this benchmark. As indic
 
 **Figure 2**. Cumulative percentage of correctly prioritized causal variants among the 61 patients with WES data according to evaluated tools to date (June 2023).
 
-Exomiser continues to be the best-performing tool in the top first rankings. Franklin rankings were nearly as good as LIRICAL and PhenIX. As an important benefit, Franklin offers other user-friendly representations of the results.
+Exomiser continues to be the best-performing tool in the top first rankings (Table 2). Franklin rankings were nearly as good as LIRICAL and PhenIX. As an important benefit, Franklin offers other user-friendly representations of the results.
 
-Table 2
+  <a href="#Figure1" title="Up">
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/figures/table2.png" width="auto" />
+  </a>
+</p>
 
-Table: Counts and relative frequencies of correctly prioritized causal variants among the 61 patients. Significance for the pairwise comparisons for the percentage of correctly prioritized causal variants between a given tool and Exomiser are indicated.
+**Table 2**. Counts and relative frequencies of correctly prioritized causal variants among the 61 patients. Significance for the pairwise comparisons for the percentage of correctly prioritized causal variants between a given tool and Exomiser are indicated.
 
 <p align="right">
   <a href="#Variants-prioritizers" title="Up">
