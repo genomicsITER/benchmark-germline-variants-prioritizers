@@ -106,16 +106,17 @@ Franklin was tested after uploading all 61 cases of our dataset, their compresse
 
 **Figure 2**. Cumulative percentage of correctly prioritized causal variants among the 61 patients with WES data according to evaluated tools to date (June 2023).
 
-Exomiser continues to be the best-performing tool in the top first rankings (Table 2). Franklin rankings were nearly as good as LIRICAL and PhenIX. As an important benefit, Franklin offers other user-friendly representations of the results.
+The results of Franklin's performance, using the same dataset of cases, according to the position of the causal variant in the corresponding list of prioritized genetic variants, is shown in Table 2.
 
-  <a href="#Table2" title="Up">
+Exomiser continues to be the best-performing tool in the top first rankings. Franklin rankings were nearly as good as LIRICAL and PhenIX. As an important benefit, Franklin offers other user-friendly representations of the results.
+
+<a href="#Table2" title="Up">
     <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/figures/table2.png" width="auto" />
   </a>
 </p>
 
-Table 2 displays the results of Franklin's performance using the dataset of cases, according to the position of the causal variant in the corresponding list of prioritized genetic variants.
-
 **Table 2**. Counts and relative frequencies of correctly prioritized causal variants among the 61 patients. Significance for the pairwise comparisons for the percentage of correctly prioritized causal variants between a given tool and Exomiser are indicated.
+
 
 In summary, causal genes have been correctly prioritized in 39 cases out of 61 in total in the top position of the results, while only 41 were correctly identified in the top 5 and top 10 of the output. Franklin then becomes the fourth best performing tool considering only top 1 results, after Exomiser, PhenIX, and LIRICAL. It is surprising how the values between the three top considerations of the results stand very close (39, 41, 41), which may suggest a clear pattern in its performance and would not improve much more after input filtering of low-quality variants.
 
@@ -127,9 +128,6 @@ Despite its current flaws, Franklin is a promising variant prioritizing tool. It
     <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2 px;" />
   </a>
 </p>
-
-
-
 
 <hr>
 <!-- ------------------ SECTION 6 ------------------ -->
