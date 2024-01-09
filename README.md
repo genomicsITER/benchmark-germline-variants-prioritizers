@@ -154,7 +154,7 @@ Despite its current flaws, Franklin is a promising variant prioritizing tool. It
 
 <li><a href="https://web.stanford.edu/group/wonglab/Xrare/xrare-pub.2021.html">Xrare v.2021</a>: an R-dependent library dedicated to disease-causing variant prioritization based on phenotypes and genetic features. The algorithm annotates each variant internally with a specific format in order to assign “predicted” phenotype similarity scores following ACMG/AMP best practices in assessing pathogenicity of genetic variants. It requires a compressed VCF file and HPO terms per sample (Li et al., 2019).</li>
 
-<li><a href="https://franklin.genoox.com">Franklin</a>:Franklin is an online tool, defined as a connectivity hub across the medical genetics domain to extend actionable genomic information to  patients care.</li>
+<li><a href="https://franklin.genoox.com">Franklin</a>: Franklin is an online tool, defined as a connectivity hub across the medical genetics domain to extend actionable genomic information to  patients care.</li>
 
 <ul>
 </details>
