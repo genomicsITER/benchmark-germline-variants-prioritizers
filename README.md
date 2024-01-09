@@ -247,6 +247,8 @@ Follow us on <a href="https://twitter.com/labcflores" title="Follow to @labcflor
 
 > Please, see the references with published papers by our group. In addition, please, follow the 'License and Attribution' section to cite this repository.
 
+> Updated results will be available soon.
+ 
 <p align="right">
   <a href="#Variants-prioritizers" title="Up">
     <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2 px;" />
@@ -260,7 +262,7 @@ Follow us on <a href="https://twitter.com/labcflores" title="Follow to @labcflor
 <a name="Update logs"></a>
 ## Update logs
 
-> January xx, 2024. This repository became fully public. Enjoy the reading! ;=)
+> January 9, 2024. This repository became fully public. Enjoy the reading! ;=)
 
 > January 4, 2024. Created the private version of this repository.
 
