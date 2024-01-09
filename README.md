@@ -193,9 +193,9 @@ Analyses were conducted in the TeideHPC thanks to INP-2011-0063-PCT-430000-ACT (
 
 We would also like to thank the authors of Xrare for sharing a copy of the software for benchmark study [<a href="#References">1</a>].
 
-This work was supported by Instituto de Salud Carlos III (FI18/00230; CD19/00231; PI20/00876) and Ministerio de Ciencia e Innovación [RTC‐2017‐6471‐1], co‐funded by the European Regional Development Fund (ERDF); Cabildo Insular de Tenerife [CGIEU0000219140]; the agreement with Instituto Tecnológico y de Energías Renovables (ITER) to strengthen scientific and technological education, training research, development and innovation in Genomics, Personalized Medicine and Biotechnology [grant number OA17/008]. Alejandro Mendoza‐Alvarez and Eva Tosco‐Herrera were supported by a fellowship from Agencia Canaria de Investigación Innovación y Sociedad de la Información del Gobierno De Canarias (TESIS2020010002, TESIS2021010046) co‐funded by European Social Fund.
+This work was supported by Instituto de Salud Carlos III (FI18/00230; CD19/00231; PI20/00876) and Ministerio de Ciencia e Innovación [RTC‐2017‐6471‐1], co‐funded by the European Regional Development Fund (ERDF); Cabildo Insular de Tenerife [CGIEU0000219140]; the agreement with Instituto Tecnológico y de Energías Renovables (ITER) to strengthen scientific and technological education, training research, development and innovation in Genomics, Personalized Medicine and Biotechnology [grant number OA17/008]; and Agencia Canaria de Investigación Innovación y Sociedad de la Información del Gobierno De Canarias (TESIS2020010002, TESIS2021010046) co‐funded by European Social Fund.
 
-The funders had no role in the study design, collection, analysis, and interpretation of data, in the writing of the manuscript or in the decision to submit the manuscripts for publication.
+The funders had no role in the study design, collection, analysis, and interpretation of data, in the writing of the manuscripts or in the decision to submit the manuscripts for publication.
 
 <p align="right">
   <a href="#Variants-prioritizers" title="Up">
