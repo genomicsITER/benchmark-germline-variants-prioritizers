@@ -229,7 +229,7 @@ Please cite this repository as: _"Repository for Benchmarking of causal germline
 
 > Want to share your relevant links? Place a Direct Message to @labcflores on X (see below).
 
-Follow us on <a href="https://twitter.com/labcflores" title="Follow to @labcflores on Twitter" > @labcflores <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/X_logo-black.png" width="32px" /></a>
+Follow us on <a href="https://twitter.com/labcflores" title="Follow to @labcflores on Twitter" >@labcflores <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/X_logo-black.png" width="32px" /></a>
 
 <p align="right">
   <a href="#Variants-prioritizers" title="Up">
