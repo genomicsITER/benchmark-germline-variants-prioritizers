@@ -34,7 +34,7 @@ Our aim is to maintain active this comparison using the same WES dataset while a
 <ul>
   <li><a href="#Benchmark-germline-variants-prioritizers">Benchmarking of causal germline variant prioritizers</a></li>
   <li><a href="#First-benchmark-2022">First benchmarking of prioritizers (2022)</a></li>
-  <li><a href="#Further-benchmark-2023">Further benchmarking of prioritizers: the case of Franklin (June 2023)</a></li>
+  <li><a href="#Further-benchmark-2023">Further benchmarking of prioritizers: the case of <i>Franklin</i> (June 2023)</a></li>
   <li><a href="#Software">Bioinformatic tools</a></li>
   <li><a href="#References">References</a></li>
   <li><a href="#Acknowledgements">Acknowledgements</a></li>
