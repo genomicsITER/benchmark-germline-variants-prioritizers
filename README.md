@@ -191,7 +191,7 @@ Despite its current flaws, Franklin is a promising variant prioritizing tool. It
 
 Analyses were conducted in the TeideHPC thanks to INP-2011-0063-PCT-430000-ACT (INNPLANTA program) from the Spanish Ministry of Economy and Competitiveness. The authors would like to thank the TeideHPC team for the HPC support.
 
-We would also like to thank the authors of Xrare for sharing a copy of the software for benchmark study referenced in [<a href="#References">1</a>].
+We would also like to thank the authors of Xrare for sharing a copy of the software for benchmark study [<a href="#References">1</a>].
 
 This work was supported by Instituto de Salud Carlos III (FI18/00230; CD19/00231; PI20/00876) and Ministerio de Ciencia e Innovación [RTC‐2017‐6471‐1], co‐funded by the European Regional Development Fund (ERDF); Cabildo Insular de Tenerife [CGIEU0000219140]; the agreement with Instituto Tecnológico y de Energías Renovables (ITER) to strengthen scientific and technological education, training research, development and innovation in Genomics, Personalized Medicine and Biotechnology [grant number OA17/008]. Alejandro Mendoza‐Alvarez and Eva Tosco‐Herrera were supported by a fellowship from Agencia Canaria de Investigación Innovación y Sociedad de la Información del Gobierno De Canarias (TESIS2020010002, TESIS2021010046) co‐funded by European Social Fund.
 
