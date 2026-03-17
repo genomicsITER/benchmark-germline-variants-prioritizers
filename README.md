@@ -76,7 +76,7 @@ We end up using 9 prioritizers in the evaluation. Variant prioritizations were p
   </a>
 </p>
 
-**Figure 1**. Cumulative percentage of correctly prioritized causal variants among the 61 patients with WES data according to evaluated in 2022.
+**Figure 1**. Cumulative percentage of correctly prioritized causal variants among the 61 patients with WES data evaluated in 2022.
 Exomiser performed best in the top first rankings, while LIRICAL led in the top fifth. We concluded that Xrare, Exomiser, LIRICAL, and PhenIX were the most efficient options for variant prioritization.
 
 <p align="right">
