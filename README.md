@@ -147,7 +147,6 @@ All cases were analyzed one time per patient dataset, using GEBRA™ with defaul
 ### Results
 GEBRA™ was accessed (date range: March 10-11, 2026) and used to process the available 61 WES data files and added to the benchmark. Sample processing did not rely on local hardware, as all analyses were executed on a remote server. The system fully supports parallel processing, analyzing all samples in under 15 minutes. Table 1 presents the performance of GEBRA™ using the same WES data, following the same procedure as with the earlier tools. GEBRA™ emerged as the new best-performing tool in the rankings (Figure 3). It not only outperformed previously assessed tools, but also features a user-friendly interface. Its design is extremely focused on result exploration for individual patients.
 
-> WIP: Upload and change figure 2 to figure 3 !!!!!!!
 <p align="center">
   <a href="#Figure3" title="Up">
     <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/figures/figure3.tif" width="auto" />
@@ -158,7 +157,7 @@ GEBRA™ was accessed (date range: March 10-11, 2026) and used to process the av
 
 The correct causal genes were identified in 44 cases out of 61 in the top position (top 1) of the rankings, as shown in Table 3. In the top 5 results, the correct gene was prioritized in 50 cases, with only one additional success when considering the top 10. GEBRA™ now leads the benchmarking in all top rankings, surpassing Exomiser, PhenIX, LIRICAL and Franklin, available from the existing benchmarking. The results (44, 50, 51) are higher but remarkably close to Exomiser (42, 46, 48). This must be framed into the following important information. Exomiser is an open-source tool and did not integrate AI to the prioritization algorithm in the benchmarked version (v.12.1.0). This update suggests that specialized AI-integrated tools like GEBRA™ could enhance performance by a better understanding of each individual’s genomic context.
 
-> WIP: Upload and change table 2 to table 3 !!!!!!!
+
 <a href="#Table3" title="Up">
     <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/figures/table3.png" width="auto" />
   </a>
