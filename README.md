@@ -132,7 +132,7 @@ Despite its current flaws, Franklin is a promising variant prioritizing tool. It
 <hr>
 <!-- ------------------ SECTION 5 ------------------ -->
 
-<a name="#Added-GEBRA-2026"></a>
+<a name="Added-GEBRA-2026"></a>
 
 ## New addition to the benchmarking: <i>GEBRA™</i> (April 2026)
 
