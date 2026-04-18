@@ -35,6 +35,7 @@ Our aim is to maintain active this comparison using the same WES dataset while a
   <li><a href="#Benchmark-germline-variants-prioritizers">Benchmarking of causal germline variant prioritizers</a></li>
   <li><a href="#First-benchmark-2022">First benchmarking of prioritizers (2022)</a></li>
   <li><a href="#Further-benchmark-2023">Further benchmarking of prioritizers: the case of <i>Franklin</i> (June 2023)</a></li>
+  <li><a href="#Added-GEBRA-2026">New addition to the benchmarking: <i>GEBRA</i> (April 2026)</a></li>
   <li><a href="#Software">Bioinformatic tools</a></li>
   <li><a href="#References">References</a></li>
   <li><a href="#Acknowledgements">Acknowledgements</a></li>
@@ -127,8 +128,58 @@ Despite its current flaws, Franklin is a promising variant prioritizing tool. It
   </a>
 </p>
 
+
 <hr>
 <!-- ------------------ SECTION 5 ------------------ -->
+
+<a name="#Added-GEBRA-2026"></a>
+
+## New addition to the benchmarking: <i>GEBRA™</i> (April 2026)
+
+This addition comes from a collaboration between 3billion, Inc. and this research group in the domain of rare Mendelian disease genomics and gene prioritization. Following the publication of our previous study (Tosco‐Herrera, et al. (2022)), where we evaluated prioritization algorithms using real datasets, 3billion, Inc. grated us access to their proprietary prioritization tool, <a href="https://3billion.io/gebra">GEBRA™</a>, to perform an independent benchmarking. After discussing the objectives and technical considerations, we agreed to include the tool to our benchmark, along with the rest of the 10 previously assessed tools.
+
+Our group was responsible for designing the benchmarking framework, performing the analyses, and interpreting the results. The company, 3billion, Inc. provided access to GEBRA™, continuous technical support, and guidance through its functions.
+
+### Procedure
+GEBRA™ was accessed on March 10, 2026 for processing the complete dataset. Minimal required clinical and phenotypic information was provided in bulk using the default spreadsheet template. This step generated individual case accessions in the tool. Each corresponding VCF file (compressed, using GRCh37/hg19 reference and GATK caller) was manually uploaded and revised, directly proceeding with the analyses. The tool supports bulk VCF upload through AWS keys and prior permission of the company, although this function was not used to simplify the workflow and recreate plausible user experience in clinical fields, where few patients are processed but deeply investigated individually.
+All cases were analyzed one time per patient dataset, using GEBRA™ with default WES parameters, as «Proband Only Exome» tests and with Secondary Findings activated. When all analyses were completed, the resulting variant rankings were manually reviewed to assess performance and concordance with the available genetic diagnosis. Evaluation was based on whether the causal gene for each diagnosis appeared within the first to tenth positions in the prioritized results.
+
+### Results
+GEBRA™ was accessed (date range: March 10-11, 2026) and used to process the available 61 WES data files and added to the benchmark. Sample processing did not rely on local hardware, as all analyses were executed on a remote server. The system fully supports parallel processing, analyzing all samples in under 15 minutes. Table 1 presents the performance of GEBRA™ using the same WES data, following the same procedure as with the earlier tools. GEBRA™ emerged as the new best-performing tool in the rankings (Figure 3). It not only outperformed previously assessed tools, but also features a user-friendly interface. Its design is extremely focused on result exploration for individual patients.
+
+> WIP: Upload and change figure 2 to figure 3 !!!!!!!
+<p align="center">
+  <a href="#Figure3" title="Up">
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/figures/figure2.png" width="auto" />
+  </a>
+</p>
+
+**Figure 3**. Cumulative proportion of correctly prioritized causal variants across the total 61 patients, by all tools evaluated to date, now including GEBRA™ (March 2026).
+
+The correct causal genes were identified in 44 cases out of 61 in the top position (top 1) of the rankings, as shown in Table 3. In the top 5 results, the correct gene was prioritized in 50 cases, with only one additional success when considering the top 10. GEBRA™ now leads the benchmarking in all top rankings, surpassing Exomiser, PhenIX, LIRICAL and Franklin, available from the existing benchmarking. The results (44, 50, 51) are higher but remarkably close to Exomiser (42, 46, 48). This must be framed into the following important information. Exomiser is an open-source tool and did not integrate AI to the prioritization algorithm in the benchmarked version (v.12.1.0). This update suggests that specialized AI-integrated tools like GEBRA™ could enhance performance by a better understanding of each individual’s genomic context.
+
+> WIP: Upload and change table 2 to table 3 !!!!!!!
+<a href="#Table3" title="Up">
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/figures/table2.png" width="auto" />
+  </a>
+</p>
+
+**Table 3**. Counts and relative frequencies of correctly prioritized causal variants among the 61 patients. Significance for the pairwise comparisons for the percentage of correctly prioritized causal variants between a given tool and GEBRA™ (as the best performing tool in this analysis freeze) are indicated.
+
+GEBRA™ offers an intuitive web interface, especially tailored for clinical use. It is accessible from any device, accepts HPO terms as phenotypes, and supports bulk uploads of patients’ clinical information, along with gene panels or custom lists of genes of interest. This makes it highly useful for in-depth investigations. Users receive periodic notifications about credit balances and pricing for FASTQ or VCF runs. Although GEBRA™ is not for free, due to private company support, the tool guarantees consistent updates and native automatic reanalysis, updating the results according to the latest version of databases and available ACMG criteria.
+The clinical-focused design of GEBRA™ produced some challenges in the testing process. It supports multiple VCF uploads only via AWS keys after company approval, complicating batch processing. As far as we are concerned, phenopackets are not yet supported; instead, it relies on individual HPO terms, entered manually or via bulk upload (only for clinical data) using a simple template, also showing permanently in the web application and interfering with result exploration later in the analysis, especially for patients with multiple HPOs. Also, automation of this tool is cumbersome, due to its web-based design. It requires a large amount of time and human interaction to test with bigger patient cohorts than usual in clinical practice.
+GEBRA™ has been developed by a private company. The source code is unavailable, and its usage involves an economic cost and the use of external servers. The pipeline is visible but not fully detailed, with limited parameter customization, unlike open-source tools. They are free to use and highly customizable, but they often lack consistent technical support. Despite these research-related limitations, GEBRA™ has emerged as a prioritization tool incorporating AI at its specialized core algorithm. It shows strong potential as a valuable clinical assistant, especially for challenging diagnoses, and ensures reproducible genetic pipelines at minimal technical cost, enabling faster detection, diagnosis and treatment.
+
+<p align="right">
+  <a href="#Variants-prioritizers" title="Up">
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/images/home-icon.png" style="float: right; margin: 10px; padding: 2 px;" />
+  </a>
+</p>
+
+
+
+<hr>
+<!-- ------------------ SECTION 6 ------------------ -->
 
 <a name="Software"></a>
 
@@ -169,7 +220,7 @@ Despite its current flaws, Franklin is a promising variant prioritizing tool. It
 </p>
 
 <hr>
-<!-- ------------------ SECTION 6 ------------------ -->
+<!-- ------------------ SECTION 7 ------------------ -->
 
 <a name="References"></a>
 ## References
@@ -186,7 +237,7 @@ Despite its current flaws, Franklin is a promising variant prioritizing tool. It
 
 
 <hr>
-<!-- ------------------ SECTION 7 ------------------ -->
+<!-- ------------------ SECTION 8 ------------------ -->
 
 <a name="Acknowledgements"></a>
 ## Acknowledgements
@@ -207,7 +258,7 @@ The funders had no role in the study design, collection, analysis, and interpret
 
 
 <hr>
-<!-- ------------------ SECTION 8 ------------------ -->
+<!-- ------------------ SECTION 9 ------------------ -->
 
 <a name="License and Attribution"></a>
 ## License and Attribution
@@ -224,7 +275,7 @@ Please cite this repository as: _"Repository for Benchmarking of causal germline
 
 
 <hr>
-<!-- ------------------ SECTION 9 ------------------ -->
+<!-- ------------------ SECTION 10 ------------------ -->
 
 <a name="Participating"></a>
 ## Participating
@@ -241,7 +292,7 @@ Follow us on <a href="https://twitter.com/labcflores" title="Follow to @labcflor
 
 
 <hr>
-<!-- ------------------ SECTION 10 ------------------ -->
+<!-- ------------------ SECTION 11 ------------------ -->
 
 <a name="How-to-cite"></a>
 
@@ -259,7 +310,7 @@ Follow us on <a href="https://twitter.com/labcflores" title="Follow to @labcflor
 
 
 <hr>
-<!-- ------------------ SECTION 11 ------------------ -->
+<!-- ------------------ SECTION 12 ------------------ -->
 
 <a name="Update logs"></a>
 ## Update logs
