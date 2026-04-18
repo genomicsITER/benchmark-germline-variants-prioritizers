@@ -4,7 +4,7 @@
 <!-- Developed and maintained by Genomics Division
 <!-- of the Institute of Technology an Renewable Energy (ITER)
 <!-- Tenerife, Canary Islands, SPAIN
-<!-- See the "Contact us" section to collaborate with us to growth
+<!-- See the "Contact us" section to collaborate with us to grow
 <!-- this repository. ;=)
 
 <!-- ------------------ SECTION 1 ------------------ -->
@@ -156,6 +156,8 @@ Despite its current flaws, Franklin is a promising variant prioritizing tool. It
 
 <li><a href="https://franklin.genoox.com">Franklin</a>: Franklin is an online tool, defined as a connectivity hub across the medical genetics domain to extend actionable genomic information to  patients care.</li>
 
+<li><a href="https://3billion.io/gebra">GEBRA</a>: A proprietary online tool, innovatively integrating AI in its prioritizing algorithm and designed especially for medical genetic professionals, to provide quick aid in gene and causal prioritization of Mendelian diseases in clinical settings.</li>
+
 <ul>
 </details>
 
@@ -191,7 +193,7 @@ Despite its current flaws, Franklin is a promising variant prioritizing tool. It
 
 Analyses were conducted in the TeideHPC thanks to INP-2011-0063-PCT-430000-ACT (INNPLANTA program) from the Spanish Ministry of Economy and Competitiveness. The authors would like to thank the TeideHPC team for the HPC support.
 
-We would also like to thank the authors of Xrare for sharing a copy of the software for benchmark study [<a href="#References">1</a>].
+We would also like to thank the authors of Xrare for sharing a copy of the software for benchmark study, and 3billion, Inc. for granting access to the tool and allowing the publication of these results, along with the rest of the benchmarking. [<a href="#References">1</a>].
 
 This work was supported by Instituto de Salud Carlos III (FI18/00230; CD19/00231; PI20/00876) and Ministerio de Ciencia e Innovación [RTC‐2017‐6471‐1], co‐funded by the European Regional Development Fund (ERDF); Cabildo Insular de Tenerife [CGIEU0000219140]; the agreement with Instituto Tecnológico y de Energías Renovables (ITER) to strengthen scientific and technological education, training research, development and innovation in Genomics, Personalized Medicine and Biotechnology [grant number OA17/008]; and Agencia Canaria de Investigación Innovación y Sociedad de la Información del Gobierno De Canarias (TESIS2020010002, TESIS2021010046) co‐funded by European Social Fund.
 
@@ -261,6 +263,8 @@ Follow us on <a href="https://twitter.com/labcflores" title="Follow to @labcflor
 
 <a name="Update logs"></a>
 ## Update logs
+
+> April 25, 2025. GEBRA™ results were added to the benchmarking.
 
 > January 9, 2024. This repository became fully public. Enjoy the reading! ;=)
 
