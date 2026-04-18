@@ -136,7 +136,7 @@ Despite its current flaws, Franklin is a promising variant prioritizing tool. It
 
 ## New addition to the benchmarking: <i>GEBRA™</i> (April 2026)
 
-This addition comes from a collaboration between 3billion, Inc. and this research group in the domain of rare Mendelian disease genomics and gene prioritization. Following the publication of our previous study (Tosco‐Herrera, et al. (2022)), where we evaluated prioritization algorithms using real datasets, 3billion, Inc. grated us access to their proprietary prioritization tool, <a href="https://3billion.io/gebra">GEBRA™</a>, to perform an independent benchmarking. After discussing the objectives and technical considerations, we agreed to include the tool to our benchmark, along with the rest of the 10 previously assessed tools.
+This addition comes from a collaboration between 3billion, Inc. and this research group in the domain of rare Mendelian disease genomics and gene prioritization. Following the publication of our previous study [<a href="#Ref1">1</a>], where we evaluated prioritization algorithms using real datasets, 3billion, Inc. grated us access to their proprietary prioritization tool, <a href="https://3billion.io/gebra">GEBRA™</a>, to perform an independent benchmarking. After discussing the objectives and technical considerations, we agreed to include the tool to our benchmark, along with the rest of the 10 previously assessed tools.
 
 Our group was responsible for designing the benchmarking framework, performing the analyses, and interpreting the results. The company, 3billion, Inc. provided access to GEBRA™, continuous technical support, and guidance through its functions.
 
@@ -223,7 +223,7 @@ GEBRA™ has been developed by a private company. The source code is unavailable
 
 <a name="References"></a>
 ## References
-
+<a name="Ref1"></a>
 1: Tosco-Herrera E, Muñoz-Barrera A, Jáspez D, Rubio-Rodríguez LA, Mendoza-Alvarez A, Rodriguez-Perez H, Jou J, Iñigo-Campos A, Corrales A, Ciuffreda L, Martinez-Bugallo F, Prieto-Morin C, García-Olivares V, González-Montelongo R, Lorenzo-Salazar JM, Marcelino-Rodriguez I, Flores C. **Evaluation of a whole-exome sequencing pipeline and benchmarking of causal germline variant prioritizers**. <i>Hum Mutat.</i> 2022 Dec;43(12):2010-2020. doi: <a href="https://doi.org/10.1002/humu.24459">10.1002/humu.24459</a>. Epub 2022 Sep 12. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/36054330/">36054330</a>.
 
 2: Díaz-de Usera A, Lorenzo-Salazar JM, Rubio-Rodríguez LA, Muñoz-Barrera A, Guillen-Guio B, Marcelino-Rodríguez I, García-Olivares V, Mendoza-Alvarez A, Corrales A, Íñigo-Campos A, González-Montelongo R, Flores C. **Evaluation of Whole-Exome Enrichment Solutions: Lessons from the High-End of the Short-Read Sequencing Scale**. <i>J Clin Med.</i> 2020 Nov 13;9(11):3656. <a href="https://doi.org/10.3390/jcm9113656">doi: 10.3390/jcm9113656</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/33202991/">33202991</a>.
