@@ -136,7 +136,7 @@ Despite its current flaws, Franklin is a promising variant prioritizing tool. It
 
 ## New addition to the benchmarking: <i>GEBRA™</i> (April 2026)
 
-This addition comes from a collaboration between 3billion, Inc. and this research group in the domain of rare Mendelian disease genomics and gene prioritization. Following the publication of our previous study [<a href="#Ref1">1</a>], where we evaluated prioritization algorithms using real datasets, 3billion, Inc. grated us access to their proprietary prioritization tool, <a href="https://3billion.io/gebra">GEBRA™</a>, to perform an independent benchmarking. After discussing the objectives and technical considerations, we agreed to include the tool to our benchmark, along with the rest of the 10 previously assessed tools.
+This addition comes from a collaboration between 3billion, Inc. and this research group in the domain of rare Mendelian disease genomics and gene prioritization. Following the publication of our previous study [<a href="#Ref1">1</a>], where we evaluated prioritization algorithms using real datasets, 3billion, Inc. granted us access to their proprietary prioritization tool, <a href="https://3billion.io/gebra">GEBRA™</a>, to perform an independent benchmarking. After discussing the objectives and technical considerations, we agreed to include the tool to our benchmark, along with the rest of the 10 previously assessed tools.
 
 Our group was responsible for designing the benchmarking framework, performing the analyses, and interpreting the results. The company, 3billion, Inc. provided access to GEBRA™, continuous technical support, and guidance through its functions.
 
