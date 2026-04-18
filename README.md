@@ -150,7 +150,7 @@ GEBRA™ was accessed (date range: March 10-11, 2026) and used to process the av
 > WIP: Upload and change figure 2 to figure 3 !!!!!!!
 <p align="center">
   <a href="#Figure3" title="Up">
-    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/figures/figure2.png" width="auto" />
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/figures/figure3.tif" width="auto" />
   </a>
 </p>
 
@@ -160,7 +160,7 @@ The correct causal genes were identified in 44 cases out of 61 in the top positi
 
 > WIP: Upload and change table 2 to table 3 !!!!!!!
 <a href="#Table3" title="Up">
-    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/figures/table2.png" width="auto" />
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/figures/table3.png" width="auto" />
   </a>
 </p>
 
