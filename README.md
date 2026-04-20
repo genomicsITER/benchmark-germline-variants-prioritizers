@@ -176,8 +176,8 @@ GEBRA™ has been developed by a private company. The source code is unavailable
 </p>
 
 -->
-
-<hr>
+<!-- 
+<hr> -->
 <!-- ------------------ SECTION 6 ------------------ -->
 
 <a name="Software"></a>
