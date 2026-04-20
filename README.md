@@ -35,7 +35,7 @@ Our aim is to maintain active this comparison using the same WES dataset while a
   <li><a href="#Benchmark-germline-variants-prioritizers">Benchmarking of causal germline variant prioritizers</a></li>
   <li><a href="#First-benchmark-2022">First benchmarking of prioritizers (2022)</a></li>
   <li><a href="#Further-benchmark-2023">Further benchmarking of prioritizers: the case of <i>Franklin</i> (June 2023)</a></li>
-  <li><a href="#Added-GEBRA-2026">New addition to the benchmarking: <i>GEBRA</i> (April 2026)</a></li>
+  <li><a href="#Added-GEBRA-2026">New addition to the benchmarking: the case of <i>GEBRA</i> (April 2026)</a></li>
   <li><a href="#Software">Bioinformatic tools</a></li>
   <li><a href="#References">References</a></li>
   <li><a href="#Acknowledgements">Acknowledgements</a></li>
@@ -134,7 +134,7 @@ Despite its current flaws, Franklin is a promising variant prioritizing tool. It
 
 <a name="Added-GEBRA-2026"></a>
 
-## New addition to the benchmarking: <i>GEBRA™</i> (April 2026)
+## New addition to the benchmarking: the case of <i>GEBRA™</i> (April 2026)
 
 This addition comes from a collaboration between 3billion, Inc. and this research group in the domain of rare Mendelian disease genomics and gene prioritization. Following the publication of our previous study [<a href="#Ref1">1</a>], where we evaluated prioritization algorithms using real datasets, 3billion, Inc. granted us access to their proprietary prioritization tool, <a href="https://3billion.io/gebra">GEBRA™</a>, to perform an independent benchmarking. After discussing the objectives and technical considerations, we agreed to include the tool to our benchmark, along with the rest of the 10 previously assessed tools.
 
