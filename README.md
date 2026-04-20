@@ -314,7 +314,7 @@ Follow us on <a href="https://twitter.com/labcflores" title="Follow to @labcflor
 <a name="Update logs"></a>
 ## Update logs
 
-> April 25, 2026. GEBRA™ results were added to the benchmarking.
+> April 20, 2026. GEBRA™ results were added to the benchmarking.
 
 > January 9, 2024. This repository became fully public. Enjoy the reading! ;=)
 
