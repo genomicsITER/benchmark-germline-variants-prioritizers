@@ -35,7 +35,7 @@ Our aim is to maintain active this comparison using the same WES dataset while a
   <li><a href="#Benchmark-germline-variants-prioritizers">Benchmarking of causal germline variant prioritizers</a></li>
   <li><a href="#First-benchmark-2022">First benchmarking of prioritizers (2022)</a></li>
   <li><a href="#Further-benchmark-2023">Further benchmarking of prioritizers: the case of <i>Franklin</i> (June 2023)</a></li>
-  <li><a href="#Added-GEBRA-2026">New addition to the benchmarking: the case of <i>GEBRA</i> (April 2026)</a></li>
+  <!-- <li><a href="#Added-GEBRA-2026">New addition to the benchmarking: the case of <i>GEBRA</i> (April 2026)</a></li> -->
   <li><a href="#Software">Bioinformatic tools</a></li>
   <li><a href="#References">References</a></li>
   <li><a href="#Acknowledgements">Acknowledgements</a></li>
@@ -132,7 +132,7 @@ Despite its current flaws, Franklin is a promising variant prioritizing tool. It
 <hr>
 <!-- ------------------ SECTION 5 ------------------ -->
 
-<a name="Added-GEBRA-2026"></a>
+<!-- <a name="Added-GEBRA-2026"></a>
 
 ## New addition to the benchmarking: the case of <i>GEBRA™</i> (April 2026)
 
@@ -175,7 +175,7 @@ GEBRA™ has been developed by a private company. The source code is unavailable
   </a>
 </p>
 
-
+-->
 
 <hr>
 <!-- ------------------ SECTION 6 ------------------ -->
@@ -314,7 +314,9 @@ Follow us on <a href="https://twitter.com/labcflores" title="Follow to @labcflor
 <a name="Update logs"></a>
 ## Update logs
 
+<!-- 
 > April 20, 2026. GEBRA™ results were added to the benchmarking.
+-->
 
 > January 9, 2024. This repository became fully public. Enjoy the reading! ;=)
 
