@@ -136,9 +136,7 @@ Despite its current flaws, Franklin is a promising variant prioritizing tool. It
 
 ## New addition to the benchmarking: the case of <i>GEBRA™</i> (April 2026)
 
-This addition comes from a collaboration between 3billion, Inc. and this research group in the domain of rare Mendelian disease genomics and gene prioritization. Following the publication of our previous study [<a href="#Ref1">1</a>], where we evaluated prioritization algorithms using real datasets, 3billion, Inc. granted us access to their proprietary prioritization tool, <a href="https://3billion.io/gebra">GEBRA™</a>, to perform an independent benchmarking. After discussing the objectives and technical considerations, we agreed to include the tool to our benchmark, along with the rest of the 10 previously assessed tools.
-
-Our group was responsible for designing the benchmarking framework, performing the analyses, and interpreting the results. The company, 3billion, Inc. provided access to GEBRA™, continuous technical support, and guidance through its functions.
+This addition comes from a collaboration between 3billion, Inc. and this research group in the domain of rare Mendelian disease genomics and gene prioritization. Following the publication of our previous study [<a href="#Ref1">1</a>], where we evaluated prioritization algorithms using real datasets, 3billion, Inc. granted us access to their proprietary prioritization tool, <a href="https://3billion.io/gebra">GEBRA™</a>, to perform an independent benchmarking.
 
 ### Procedure
 GEBRA™ was accessed on March 10, 2026 for processing the complete dataset. Minimal required clinical and phenotypic information was provided in bulk using the default spreadsheet template. This step generated individual case accessions in the tool. Each corresponding VCF file (compressed, using GRCh37/hg19 reference and GATK caller) was manually uploaded and revised, directly proceeding with the analyses. The tool supports bulk VCF upload through AWS keys and prior permission of the company, although this function was not used to simplify the workflow and recreate plausible user experience in clinical fields, where few patients are processed but deeply investigated individually.
@@ -165,9 +163,9 @@ The correct causal genes were identified in 44 cases out of 61 in the top positi
 
 **Table 3**. Counts and relative frequencies of correctly prioritized causal variants among the 61 patients. Significance for the pairwise comparisons for the percentage of correctly prioritized causal variants between a given tool and GEBRA™ (as the best performing tool in this analysis freeze) are indicated.
 
-GEBRA™ offers an intuitive web interface, especially tailored for clinical use. It is accessible from any device, accepts HPO terms as phenotypes, and supports bulk uploads of patients’ clinical information, along with gene panels or custom lists of genes of interest. This makes it highly useful for in-depth investigations. Users receive periodic notifications about credit balances and pricing for FASTQ or VCF runs. Although GEBRA™ is not for free, due to private company support, the tool guarantees consistent updates and native automatic reanalysis, updating the results according to the latest version of databases and available ACMG criteria.
+GEBRA™ offers an intuitive web interface, especially tailored for clinical use. It is accessible from any device, accepts HPO terms as phenotypes, and supports bulk uploads of patients’ clinical information, along with gene panels or custom lists of genes of interest. This makes it highly useful for in-depth investigations.
 The clinical-focused design of GEBRA™ produced some challenges in the testing process. It supports multiple VCF uploads only via AWS keys after company approval, complicating batch processing. As far as we are concerned, phenopackets are not yet supported; instead, it relies on individual HPO terms, entered manually or via bulk upload (only for clinical data) using a simple template, also showing permanently in the web application and interfering with result exploration later in the analysis, especially for patients with multiple HPOs. Also, automation of this tool is cumbersome, due to its web-based design. It requires a large amount of time and human interaction to test with bigger patient cohorts than usual in clinical practice.
-GEBRA™ has been developed by a private company. The source code is unavailable, and its usage involves an economic cost and the use of external servers. The pipeline is visible but not fully detailed, with limited parameter customization, unlike open-source tools. They are free to use and highly customizable, but they often lack consistent technical support. Despite these research-related limitations, GEBRA™ has emerged as a prioritization tool incorporating AI at its specialized core algorithm. It shows strong potential as a valuable clinical assistant, especially for challenging diagnoses, and ensures reproducible genetic pipelines at minimal technical cost, enabling faster detection, diagnosis and treatment.
+The source code is unavailable, and its usage involves an economic cost and the use of external servers. The pipeline is visible but not fully detailed, with limited parameter customization, unlike open-source tools. They are free to use and highly customizable, but they often lack consistent technical support. Despite these research-related limitations, GEBRA™ has emerged as a prioritization tool incorporating AI at its specialized core algorithm. It shows strong potential as a valuable clinical assistant, especially for challenging diagnoses, and ensures reproducible genetic pipelines at minimal technical cost, enabling faster detection, diagnosis and treatment.
 
 <p align="right">
   <a href="#Variants-prioritizers" title="Up">
@@ -312,9 +310,7 @@ Follow us on <a href="https://twitter.com/labcflores" title="Follow to @labcflor
 <a name="Update logs"></a>
 ## Update logs
 
-<!-- 
-> April 20, 2026. GEBRA™ results were added to the benchmarking.
--->
+> April 30, 2026. GEBRA™ results were added to the benchmarking.
 
 > January 9, 2024. This repository became fully public. Enjoy the reading! ;=)
 
