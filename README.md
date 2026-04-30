@@ -147,7 +147,7 @@ GEBRA™ processed the available 61 WES data files and added to the benchmark. S
 
 <p align="center">
   <a href="#Figure3" title="Up">
-    <img src="https://github.com/evatosco/benchmark-germline-variants-prioritizers/blob/update-gebra/figures/figure3.png" width="auto" />
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/figures/figure3.png" width="auto" />
   </a>
 </p>
 
@@ -157,7 +157,7 @@ The correct causal genes were identified in 44 cases out of 61 in the top positi
 
 
 <a href="#Table3" title="Up">
-    <img src="https://github.com/evatosco/benchmark-germline-variants-prioritizers/blob/update-gebra/figures/table3.png" width="auto" />
+    <img src="https://github.com/genomicsITER/benchmark-germline-variants-prioritizers/blob/main/figures/table3.png" width="auto" />
   </a>
 </p>
 
